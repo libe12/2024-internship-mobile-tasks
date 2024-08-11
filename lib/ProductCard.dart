@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+// Suggested code may be subject to a license. Learn more: ~LicenseLog:3020911390.
+// Suggested code may be subject to a license. Learn more: ~LicenseLog:3115392743.
 import 'DetailsPage.dart';
 import 'Product.dart';
 
