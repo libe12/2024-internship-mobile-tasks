@@ -83,12 +83,13 @@ class HomePage extends StatelessWidget {
                   style: TextStyle(
                     color: Color(0xFFAAAAAA),
                     fontSize: 14,
+                    fontWeight: FontWeight.w400,
                     height: 1.3, // Line height
                     letterSpacing: 0.0,
                   ),
                 ),
                 Text(
-                  'Hello, Dawit',
+                  'Hello, Libeamlak',
                   style: TextStyle(
                     fontFamily: 'Sora',
                     fontSize: 15,

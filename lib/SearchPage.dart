@@ -44,7 +44,7 @@ class _SearchPageState extends State<SearchPage> {
         centerTitle: true,
       ),
       body: Padding(
-        padding: const EdgeInsets.all(15),
+        padding: const EdgeInsets.all(10),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
@@ -54,7 +54,7 @@ class _SearchPageState extends State<SearchPage> {
                   width: 20,
                 ),
                 SizedBox(
-                  height: 40,
+                  height: 30,
                   width: MediaQuery.of(context).size.width * 0.7,
                   child: TextFormField(
                     textAlign: TextAlign.justify,
@@ -80,7 +80,7 @@ class _SearchPageState extends State<SearchPage> {
                 ),
                 Container(
                   width: MediaQuery.of(context).size.width * 0.1,
-                  height: 40, // Adjust height as needed
+                  height: 35, // Adjust height as needed
                   decoration: BoxDecoration(
                     color: const Color.fromRGBO(63, 81, 243, 1),
                     border: Border.all(
@@ -100,7 +100,7 @@ class _SearchPageState extends State<SearchPage> {
               ],
             ),
             const SizedBox(
-              height: 10,
+              height: 5,
             ),
             Expanded(
               child: ListView.builder(
@@ -124,9 +124,9 @@ class _SearchPageState extends State<SearchPage> {
                     ),
                     textAlign: TextAlign.start,
                   ),
-                  const SizedBox(height: 5),
+                  const SizedBox(height: 1),
                   SizedBox(
-                    height: 40,
+                    height: 30,
                     width: MediaQuery.of(context).size.width,
                     child: TextFormField(
                       textAlign: TextAlign.justify,
