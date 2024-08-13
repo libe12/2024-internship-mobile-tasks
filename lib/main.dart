@@ -89,7 +89,7 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  'Hello, Eyob',
+                  'Hello,Lib',
                   style: TextStyle(
                     fontFamily: 'Sora',
                     fontSize: 15,
